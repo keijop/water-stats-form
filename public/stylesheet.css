@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+body {
+  height: 100vh;
+  background-image: url('./assets/abstract_background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  width: 80vw;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url('./assets/abstract_background_desktop.jpg');
+  }
+  main {
+    width: 30vw;
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" class="is-clipped">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Asunduse</title>
+  </head>
+  <body class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+    <main>
+      <h1 class="is-size-4 mb-5 has-text-centered has-text-weight-semibold">Asunduse 15-68</h1>
+      <form class="form">
+        <div class="field">
+          <label for="hot" class="label">Soe vesi</label>
+          <div class="control">
+            <input id="hot" name="hot" class="input is-medium" type="number" placeholder="523.00" required />
+          </div>
+        </div>
+        <div class="field">
+          <label for="cold" class="label">Külm vesi</label>
+          <div class="control">
+            <input id="cold" name="cold" class="input is-medium" type="number" placeholder="345.00" required />
+          </div>
+        </div>
+        <button type="submit" class="button is-info is-medium is-fullwidth mt-6">Saada näidud</button>
+      </form>
+      <script src="./index.js"></script>
+    </main>
+  </body>
+</html>
